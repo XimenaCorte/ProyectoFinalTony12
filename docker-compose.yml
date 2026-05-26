@@ -1,0 +1,19 @@
+services:
+  web:
+    build: .
+    container_name: papeleria_php
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+    environment:
+      TZ: America/Mexico_City
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: papeleria_tunnel
+    restart: unless-stopped
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARED_TOKEN}
+    depends_on:
+      - web
