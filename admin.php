@@ -65,7 +65,7 @@ $resultado = $conn->query("SELECT * FROM articulos ORDER BY id ASC");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panel Administrativo - Papeleria Tony Ximena 2.1</title>
+    <title>Panel Administrativo - Papeleria Tony Ximena Cortes Olivera</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: Arial, sans-serif; background: #f4f6f9; }
@@ -97,7 +97,7 @@ $resultado = $conn->query("SELECT * FROM articulos ORDER BY id ASC");
 <body>
     <header>
 
-        <h1>Panel de Administracion - Papeleria Tony Ximena2.1</h1>
+        <h1>Panel de Administracion - Papeleria Tony Ximena Cortes Olivera</h1>
         <a href="index.php">Volver al Inicio</a>
     </header>
 
