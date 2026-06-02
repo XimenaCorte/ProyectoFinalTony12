@@ -97,7 +97,7 @@ $resultado = $conn->query("SELECT * FROM articulos ORDER BY id ASC");
 <body>
     <header>
 
-        <h1>Panel de Administracion - Papeleria Tony Ximena2.1/h1>
+        <h1>Panel de Administracion - Papeleria Tony Ximena2.1</h1>
         <a href="index.php">Volver al Inicio</a>
     </header>
 
